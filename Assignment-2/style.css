@@ -1,0 +1,66 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f1eeee;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+}
+
+/* Form container */
+form {
+    background: rgb(168, 175, 159);
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Field sections */
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio buttons, checkboxes and special inputs */
+input[type="radio"],
+input[type="checkbox"],
+input[type="range"],
+input[type="color"],
+input[type="file"] {
+    width: auto;
+}
+
+/* Option labels */
+label.option {
+    display: inline;
+    font-weight: normal;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
