@@ -1,0 +1,48 @@
+
+/* CSS variables */
+:root {
+    --main-color: #2a5d8a;
+    --light-bg: #f2f2f2;
+    --padding: 10px;
+    --font-size: 14px;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f1eeee;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--font-size);
+}
+
+/* Table caption */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid black;
+    padding: var(--padding);
+    text-align: center;
+}
+
+/* Table headings */
+th {
+    background: var(--main-color);
+    color: white;
+}
