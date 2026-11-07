@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chai Adda - Products</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff5f8;
+    color: #573344;
+}
+
+nav {
+    background: #e75480;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffe1eb;
+}
+
+header {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    color: #d6336c;
+}
+
+.products {
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #e9b5c5;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card .emoji {
+    font-size: 45px;
+}
+
+.card h3 {
+    color: #d6336c;
+}
+
+.price {
+    color: #e75480;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+button {
+    background: #e75480;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #c92d61;
+}
+
+footer {
+    background: #e75480;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="gallery.html">Gallery</a>
+    <a href="product-grid.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+</nav>
+
+<header>
+    <h1>☕ Our Special Menu</h1>
+    <p>Fresh Chai, Delicious Snacks and Happy Moments!</p>
+</header>
+
+<section class="products">
+
+    <div class="card">
+        <div class="emoji">☕</div>
+        <h3>Masala Chai</h3>
+        <p>Traditional Indian spiced tea.</p>
+        <p class="price">₹20</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🍵</div>
+        <h3>Green Tea</h3>
+        <p>Fresh and healthy green tea.</p>
+        <p class="price">₹30</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🫖</div>
+        <h3>Adrak Chai</h3>
+        <p>Special ginger flavored tea.</p>
+        <p class="price">₹25</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🥛</div>
+        <h3>Kulhad Chai</h3>
+        <p>Traditional kulhad wali chai.</p>
+        <p class="price">₹15</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">☕</div>
+        <h3>Cold Coffee</h3>
+        <p>Chilled and creamy coffee.</p>
+        <p class="price">₹50</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🍪</div>
+        <h3>Cookies</h3>
+        <p>Crunchy and tasty cookies.</p>
+        <p class="price">₹20</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🍜</div>
+        <h3>Masala Maggi</h3>
+        <p>Hot and delicious Maggi.</p>
+        <p class="price">₹50</p>
+        <button>Add</button>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🥟</div>
+        <h3>Veg Samosa</h3>
+        <p>Crispy and spicy samosa.</p>
+        <p class="price">₹15</p>
+        <button>Add</button>
+    </div>
+
+</section>
+
+<footer>
+    <h3>Chai Adda ❤️</h3>
+    <p>Designed by Siya Sharma</p>
+    <p>BCS2026284 | Section D</p>
+    <p>Invertis University</p>
+</footer>
+
+</body>
+</html>
