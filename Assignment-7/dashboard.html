@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chai Adda - Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff5f8;
+    color: #573344;
+}
+
+.dashboard {
+
+    display: grid;
+
+    grid-template-columns: 220px 1fr;
+
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+
+    min-height: 100vh;
+
+    gap: 12px;
+    padding: 12px;
+}
+
+.header {
+    grid-area: header;
+    background: #e75480;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header nav {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #e9b5c5;
+}
+
+.sidebar h3 {
+    color: #d6336c;
+}
+
+.sidebar p {
+    padding: 10px;
+    border-bottom: 1px solid #f5c5d5;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+    background: #ffe6ee;
+    border-radius: 12px;
+}
+
+.main h2 {
+    color: #d6336c;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #e9b5c5;
+}
+
+.box h3 {
+    color: #d6336c;
+}
+
+.footer {
+    grid-area: footer;
+    background: #e75480;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+@media (max-width: 650px) {
+
+    .dashboard {
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+    }
+
+    .sidebar {
+        padding: 12px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <h2>🌸 Chai Adda Dashboard</h2>
+
+        <nav>
+            <a href="gallery.html">Gallery</a>
+            <a href="product-grid.html">Products</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+
+    </header>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <h3>Dashboard Menu</h3>
+
+        <p>🏠 Home</p>
+        <p>📦 Orders</p>
+        <p>☕ Products</p>
+        <p>⭐ Reviews</p>
+        <p>⚙️ Settings</p>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main">
+
+        <h2>Welcome to Chai Adda!</h2>
+
+        <p>Owner Dashboard - Siya Sharma</p>
+
+        <div class="boxes">
+
+            <div class="box">
+                <h3>☕ Today's Orders</h3>
+                <h2>120</h2>
+                <p>Total chai orders today.</p>
+            </div>
+
+            <div class="box">
+                <h3>💰 Total Income</h3>
+                <h2>₹2,500</h2>
+                <p>Today's total earnings.</p>
+            </div>
+
+            <div class="box">
+                <h3>⭐ Customer Rating</h3>
+                <h2>4.8/5</h2>
+                <p>Customer satisfaction.</p>
+            </div>
+
+            <div class="box">
+                <h3>🍵 Best Seller</h3>
+                <h2>Masala Chai</h2>
+                <p>Our most popular product.</p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <h3>Student Information</h3>
+
+        <div class="box">
+            <p><b>Name:</b> Siya Sharma</p>
+            <p><b>Roll Number:</b> BCS2026284</p>
+            <p><b>Section:</b> D</p>
+            <p><b>University:</b> Invertis University</p>
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <h3>Chai Adda ❤️</h3>
+
+        <p>Designed by Siya Sharma</p>
+
+        <p>Invertis University | Section D</p>
+
+        <p>© 2026 All Rights Reserved</p>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
