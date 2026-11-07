@@ -1,0 +1,502 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --pink: #e75480;
+
+    --dark-pink: #b83262;
+
+    --light-pink: #fff0f5;
+
+    --white: #ffffff;
+
+    --text: #50313e;
+
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: var(--light-pink);
+
+    color: var(--text);
+
+    text-align: center;
+
+}
+
+
+/* Hero Section */
+
+.hero {
+
+    background-color: var(--pink);
+
+    color: white;
+
+    padding: 25px 8%;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+.navbar {
+
+    text-align: left;
+
+    padding: 10px;
+
+}
+
+
+.navbar h2 {
+
+    display: inline-block;
+
+    margin: 0;
+
+}
+
+
+.navbar a {
+
+    float: right;
+
+    color: white;
+
+    text-decoration: none;
+
+    background: var(--dark-pink);
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+}
+
+
+.hero-content {
+
+    display: inline-block;
+
+    width: 48%;
+
+    vertical-align: middle;
+
+    text-align: left;
+
+    padding: 35px 15px;
+
+}
+
+
+.tagline {
+
+    background: white;
+
+    color: var(--pink);
+
+    display: inline-block;
+
+    padding: 7px 15px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+.hero h1 {
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin: 15px 0;
+
+}
+
+
+.hero-content p {
+
+    line-height: 1.8;
+
+}
+
+
+.hero-img {
+
+    width: 38%;
+
+    height: 270px;
+
+    object-fit: cover;
+
+    border-radius: 50% 50% 15px 15px;
+
+    border: 6px solid white;
+
+    vertical-align: middle;
+
+}
+
+
+.btn {
+
+    display: inline-block;
+
+    background: white;
+
+    color: var(--pink);
+
+    padding: 12px 25px;
+
+    margin-top: 15px;
+
+    border-radius: 25px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+/* Common Section Styling */
+
+section {
+
+    padding: 55px 15px;
+
+}
+
+
+section h2 {
+
+    color: var(--dark-pink);
+
+    font-size: 30px;
+
+}
+
+
+.section-text {
+
+    color: #806574;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* Features Section */
+
+.feature-box {
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 260px;
+
+    min-height: 250px;
+
+    background: white;
+
+    padding: 22px;
+
+    margin: 12px;
+
+    border-radius: 18px;
+
+    border-bottom: 5px solid var(--pink);
+
+    text-align: center;
+
+}
+
+
+.feature-box:hover {
+
+    background: #ffe0eb;
+
+}
+
+
+.icon {
+
+    font-size: 40px;
+
+}
+
+
+.feature-box h3 {
+
+    color: var(--dark-pink);
+
+}
+
+
+.feature-box h4 {
+
+    color: var(--pink);
+
+    font-size: 19px;
+
+}
+
+
+/* Gallery Section */
+
+#gallery {
+
+    background: white;
+
+}
+
+
+.gallery-img {
+
+    width: 220px;
+
+    height: 170px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin: 10px;
+
+    border: 4px solid var(--light-pink);
+
+}
+
+
+.gallery-img:hover {
+
+    border-color: var(--pink);
+
+}
+
+
+/* Reviews Section */
+
+.review-box {
+
+    background: white;
+
+    width: 80%;
+
+    max-width: 550px;
+
+    margin: 18px auto;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    border-left: 6px solid var(--pink);
+
+    text-align: left;
+
+}
+
+
+.review-box h4 {
+
+    color: var(--dark-pink);
+
+}
+
+
+/* Contact Section */
+
+.contact-info {
+
+    background: white;
+
+    max-width: 500px;
+
+    margin: 20px auto;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    text-align: left;
+
+}
+
+
+form {
+
+    background: white;
+
+    max-width: 500px;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: left;
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-top: 12px;
+
+    font-weight: 600;
+
+}
+
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 7px;
+
+    border: 1px solid #e9a0b8;
+
+    border-radius: 8px;
+
+    font-family: inherit;
+
+}
+
+
+textarea {
+
+    height: 100px;
+
+    resize: vertical;
+
+}
+
+
+button {
+
+    background: var(--pink);
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    margin-top: 15px;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+button:hover {
+
+    background: var(--dark-pink);
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background: var(--dark-pink);
+
+    color: white;
+
+    padding: 25px 10px;
+
+}
+
+
+footer h3 {
+
+    font-size: 25px;
+
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 700px) {
+
+    .hero-content {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .hero h1 {
+
+        font-size: 36px;
+
+    }
+
+    .hero-img {
+
+        width: 85%;
+
+        height: 220px;
+
+    }
+
+    .feature-box {
+
+        width: 85%;
+
+    }
+
+    .gallery-img {
+
+        width: 85%;
+
+        height: 200px;
+
+    }
+
+    .review-box {
+
+        width: 90%;
+
+    }
+
+    .navbar a {
+
+        padding: 8px 12px;
+
+    }
+
+}
