@@ -22,7 +22,7 @@ Made four small pages in one folder using Flexbox.
 - flex-grow
 
 ## Design Choices
-Topic: Chai Adda, Budaun - Same topic as Assignment 5 to keep the project continuous.
+Topic: Chai Adda, Bareilly - Same topic as Assignment 5 to keep the project continuous.
 Colours: Dark Green #12372A for main, Cream #FBF3E4 for background, Orange #FF7A00 for buttons and highlights.
 Fonts: Sora for headings and DM Sans for body text.
 
